@@ -6,16 +6,19 @@
     <title>Shreya Rout Portfolio</title>
     <link rel="stylesheet" href="./HTML/CSS Files/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="./HTML/script.js"></script>
+
+</head>
 </head>
 <body>
     <header class="front-page">
         <div class="profile-container">
-            <img src="./HTML/Image Files/Shreya Rout-Ecommerce Web Design-Specialization-(HTML,CSS,Javascript,Java,Python,C).png" alt="Shreya Rout" class="profile-photo">
+            <img src="./HTML/Image Files/WhatsApp Image 2025-01-12 at 11.22.01_b54d25f6-Photoroom.png" alt="Shreya Rout" class="profile-photo">
         </div>
         <h1>Shreya Rout</h1>
         <h2>Web Developer(MERN Stack)</h2>
         <p>Creative Thinking | Problem Solving | Strong Communication | Good Management Skill</p>
-        <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+        <!-- <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button> -->
 
         <nav>
             <ul>
@@ -50,39 +53,48 @@
 
         </section>
 
-        <section id="skills" class="content-section">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>MongoDB</li>
-                <li>Express JS</li>
-                <li>React JS</li>
-                <li>Node JS</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>C</li>
-            </ul>
-        </section>
+       <section id="skills" class="content-section">
+    <h2>Skills</h2>
+    <div class="skills-logos">
+        <img src="./HTML/Image Files/HTML" alt="HTML" class="skill-logo">
+        <img src="./HTML/Image Files/CSS" alt="CSS" class="skill-logo">
+        <img src="./HTML/Image Files/JS" alt="JavaScript" class="skill-logo">
+        <img src="./HTML/Image Files/181_Java_logo_logos-512.webp" alt="Java" class="skill-logo">
+        <img src="./HTML/Image Files/python" alt="Python" class="skill-logo">
+        <img src="./HTML/Image Files/C" alt="C" class="skill-logo">
+        <img src="./HTML/Image Files/Oracle" alt="Oracle"class="skill-logo">
+    </div>
+</section>
+
 
         <section id="education" class="content-section">
             <h2>Education</h2>
             <ul>
                 <li><h3>Post-Graduation:</h3> Pursuing Masters in Computer Application at Srusti Academy Of Management(Autonomous),Biju Pattnaik University Of Technology (2023-present)</li>
                 <li><h3>Graduation:</h3> B.Sc. Mathematics Honours, Utkal University (2020-2023)</li>
-                <li><h3>Intermediate:</h3>h3 Council of Higher Secondary Education, Acharya Harihara Mahavidyalaya (Passed 2020)</li>
+                <li><h3>Intermediate:</h3> Council of Higher Secondary Education, Acharya Harihara Mahavidyalaya (Passed 2020)</li>
                 <li><h3>Matriculation:</h3> DAV Public School Chandrasekharpur, Central Board of Secondary Education (Passed 2017)</li>
             </ul>
         </section>
 
         <section id="projects" class="content-section">
             <h2>Project Experience</h2>
-            <ul>
-                <li><h3>Mobile App Development (Medicine Delivery App):</h3> Developed an interface using HTML, CSS Only.</li>
-                <li><h3>E-Commerce Web Design:</h3> Created a dummy e-commerce site using HTML, CSS, and JavaScript.</li>
-            </ul>
+            <div class="projects-container">
+                <div class="project-item">
+                    <h3><a href="link-to-your-deployed-project-1" target="_blank">Mobile App Development (Medicine Delivery App)</a></h3>
+                    <p>Developed an interface using HTML, CSS Only. A simple and functional interface for ordering medicines online.</p>
+                </div>
+                <div class="project-item">
+                    <h3><a href="link-to-your-deployed-project-2" target="_blank">E-Commerce Web Design</a></h3>
+                    <p>Created a dummy e-commerce site using HTML, CSS, and JavaScript to demonstrate basic e-commerce functionality.</p>
+                </div>
+                <div class="project-item">
+                    <h3><a href="link-to-your-deployed-project-3" target="_blank">Clone of Netflix</a></h3>
+                    <p>Created a clone model of Netflix using HTML, CSS, and JavaScript, replicating the basic layout and user interface.</p>
+                </div>
+            </div>
         </section>
+        
 
         <section id="contact" class="content-section">
             <h2>Contact</h2>
@@ -100,7 +112,8 @@
 
         <section id="Experience" class="content-section">
             <h2>Experience</h2>
-            <p><h3>Internship:</h3>Intern at Tetra Trion Technologies Pvt. Ltd.</p>
+            <p><h3>Internship:</h3>TetraTrion Technologies Pvt. Ltd.</p>
+            <p><h3>Internship:</h3>Scalable Systems Pvt. Ltd.</p>
            
         </section>
     </div>
@@ -113,6 +126,11 @@
             <a href="https://x.com/ShreyaRout" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.facebook.com/p/Tetratrion-Technologies-61550957288355/?_rdr" target="_blank"><i class="fab fa-facebook"></i></a>
     </footer>
-</body>
+    <div class="slideshow">
+        <img src="./HTML/Image Files/shreya.jpg" class="active">
+        <img src="./HTML/Image Files/pexels-photo-546819.jpeg">
+        <img src="./HTML/Image Files/WhatsApp Image 2025-02-01 at 19.18.41_0ea2b72a.jpg">
+    </div>
+    
 </body>
 </html>
